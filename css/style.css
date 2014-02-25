@@ -1,0 +1,133 @@
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+  /*font-family: "Roboto";*/
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  font-size: 20px;
+  color :#1abc9c;
+  background-color: #1abc9c;
+}
+
+
+.navbar-default {
+border-color: transparent;
+background-color: #fff;
+}
+
+.navbar-toggle {
+border-color: transparent;
+border: 0px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #dadada;
+  color: white;
+}
+
+.bloglink > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bloglink > a:hover {
+  color: black; 
+}
+
+#current a {
+  /*text-decoration: underline;*/
+  border-bottom: solid 2px #000000;
+  padding-bottom: 4px;
+}
+
+#cover {
+  text-align:center;
+  background-color: #1abc9c;
+  background-position: center center;
+  min-height: 525px;
+  width: 100%;
+
+}
+
+#cover p {
+  color:#ffffff;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  margin-left: 15px;
+}
+
+#about {
+  color: #ffffff;
+}
+
+#portfolio {
+  color: #ffffff;
+}
+
+#contact {
+  color: #ffffff;
+}
+
+#blog {
+  color: #ffffff;
+}
+
+
+footer {
+  background-color: #1abc9c; 
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -17px;
+}
+
+#footerlink p {
+  color: white;
+  background-color: #1abc9c; 
+
+}
+
+#footerlink > p > a {
+  color: white;
+  text-decoration: none;
+}
+
+#typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
